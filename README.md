@@ -33,10 +33,12 @@
 
 ### 直接下载
 
-到 [Releases](../../releases) 下载 `LambDice.exe`，双击运行。
+| 版本 | 大小 | 需要运行时 |
+| --- | --- | --- |
+| [`LambDice-selfcontained.exe`](../../releases/latest/download/LambDice-selfcontained.exe) | ≈140 MB | 不需要，双击就能玩 |
+| [`LambDice.exe`](../../releases/latest/download/LambDice.exe) | < 1 MB | 需要 [.NET 6 桌面运行时](https://dotnet.microsoft.com/download/dotnet/6.0) |
 
-需要 **.NET 6 桌面运行时**（[下载](https://dotnet.microsoft.com/download/dotnet/6.0)）。
-不想装运行时的话，按下面的命令自己打包成自包含版本：
+也可以自己打包自包含版本：
 
 ```bash
 dotnet publish -c Release -r win-x64 --self-contained true \
