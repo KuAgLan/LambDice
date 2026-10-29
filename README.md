@@ -15,7 +15,7 @@
 
 </div>
 
-![标题界面](Shots/title.png)
+![标题界面](Shots/title.jpg)
 
 ---
 
@@ -86,17 +86,17 @@ dotnet run -c Release
 
 | 玩法说明 | 选择对手 |
 | --- | --- |
-| ![玩法说明](Shots/help.png) | ![选择对手](Shots/opp.png) |
+| ![玩法说明](Shots/help.jpg) | ![选择对手](Shots/opp.jpg) |
 
 | 对局 | 结算 |
 | --- | --- |
-| ![对局](Shots/match.png) | ![结算](Shots/result.png) |
+| ![对局](Shots/match.jpg) | ![结算](Shots/result.jpg) |
 
 ## 联机对战
 
 标题界面点「联机对战」：
 
-![联机大厅](Shots/lobby.png)
+![联机大厅](Shots/lobby.jpg)
 
 - **房主**：端口默认 **7777**，点「创建房间」，把界面上的**本机 IP + 端口**告诉对手
 - **加入方**：填房主 IP 和同一个端口，点「加入房间」
@@ -112,7 +112,7 @@ dotnet run -c Release
 
 ## 设置
 
-![设置](Shots/settings.png)
+![设置](Shots/settings.jpg)
 
 - **我的名字**：默认「玩家」，最多 8 个字，联机时对方看到的就是它
 - **音效音量 / 静音**：滑杆可拖动，0–100%
@@ -133,7 +133,7 @@ dotnet run -c Release
 
 | 21:9 带鱼屏 | 5:4 |
 | --- | --- |
-| ![带鱼屏](Shots/match_2560x1080.png) | ![5:4](Shots/match_1280x1024.png) |
+| ![带鱼屏](Shots/match_2560x1080.jpg) | ![5:4](Shots/match_1280x1024.jpg) |
 
 ## 性能
 
@@ -194,7 +194,7 @@ LambDice/
 
 ```bash
 # 截图（--size 可指定任意分辨率）
-LambDice.exe --shot Shots/match.png --screen match --moves 9 --seed 4242 --size 2560x1080
+LambDice.exe --shot Shots/match.jpg --screen match --moves 9 --seed 4242 --size 2560x1080
 
 # AI 自动对局
 LambDice.exe --auto out.txt --games 5
