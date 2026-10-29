@@ -1,0 +1,21 @@
+# 构建产物
+bin/
+obj/
+publish/
+publish-selfcontained/
+*.user
+*.suo
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# 运行期生成（含玩家昵称、音量、上次 IP）
+config.txt
+**/config.txt
+
+# 自测输出
+Shots/*.txt
+Shots/*.trace
+*.log
